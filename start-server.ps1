@@ -1,0 +1,1 @@
+.\start-codeindexer.ps1 -ServiceOnly -NoBuild

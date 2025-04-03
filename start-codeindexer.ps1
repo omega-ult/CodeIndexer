@@ -25,15 +25,6 @@ Write-Host "      C#代码索引系统启动脚本          " -ForegroundColor C
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
-# # 检查.NET SDK是否已安装
-# try {
-#     $dotnetVersion = dotnet --version
-#     Write-Host "检测到.NET SDK版本: $dotnetVersion" -ForegroundColor Green
-# }
-# catch {
-#     Write-Host "错误: 未检测到.NET SDK, 请安装.NET 6.0或更高版本" -ForegroundColor Red
-#     exit 1
-# }
 
 # 构建解决方案
 if (-not $NoBuild) {
